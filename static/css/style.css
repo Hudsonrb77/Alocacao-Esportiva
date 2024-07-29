@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /* border: 3px solid red; */
+    /* background-color: #e1ffe0; */
+}
+
+a {
+    color: inherit; /* Define a cor do texto como a cor padrão herdada */
+    text-decoration: none; /* Remove sublinhado padrão */
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+    
+}
+
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+}
+
+
+input[type="text"], 
+input[type="password"], 
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+textarea, 
+select  {
+    border: none;
+    outline: none;
+    background: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;   
+    font-size: 1em;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+
+button, .botao {
+    /* width: 300px; */
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover, .botao:hover {
+    background-color: #FEFFC7;
+    font-weight: 800;
+}
+
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid green; */
+    width: 70%;
+}
+
+.titulo {
+    font-size:2.7em;
+    margin-bottom: 25px;
+
+}
+
+.menu {
+    /* border: 3px solid blue; */
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu a {
+    width: 250px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.menu a:hover {
+    background-color: #FEFFC7;
+    font-weight: 800;
+}
+
+.botaoSubmit {
+    width: 300px;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.botoes button, .botoes a {
+    margin-right: 10px;
+}
+
+
+
+.listagem {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.item {
+    border: 1px solid black;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+
+.item a{
+    /* border: 1px solid orange; */
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item a p {
+    margin: 0;
+}
+
+.detalhes {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;}
+
+.detalhes .botoes {
+    margin-top: 25px;}
+
+.detalhe {
+    /* border: 1px solid green; */
+    border-bottom: 1px solid black;
+    /* border-radius: 10px;     */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    width: 100%;
+}
+
+
+.detalhe p {
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+
+
+
+
+.filtroData form {
+    width: 40%;
+    /* border: 1px solid red; */
+    margin: 10px 0;
+}
+
+.filtroData form button{
+    margin-top: 5px;
+}
+
+.dataFiltro {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+
+.dataFiltro label {
+    font-weight: 200;
+    font-size: 0.8em;
+}
